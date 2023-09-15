@@ -1,0 +1,251 @@
+
+
+/* comment */
+/* .comment-section{padding:50px 0px; background: rgb(224, 244, 255);} */
+
+.R-title{color: #00aeef; font-size: 22px;font-weight:700; margin-bottom: 10px; }
+.comment-section .media-review{padding:15px 0px;border-bottom:1px solid #ccc;}
+/* .comment-section .media-review:first-child{border-top:1px solid #ccc;} */
+.comment-section .media .media-user{margin-right: 15px; border-radius: 50%;overflow: hidden; background: rgb(236, 236, 236); width: 77px;height: 77px;  }
+.comment-section .media .media-user img{width:100%; height:100%; object-fit: cover;}
+.comment-section .media .M-flex{display: flex;justify-content: space-between;}
+.comment-section .media .M-flex .title{font-size: 12px; color: #1c1d36;  margin-bottom: 10px;font-weight:400;}
+.comment-section .media .M-flex .title span{font-size: 20px;  display: block;font-weight:700;margin-bottom:5px;}
+.comment-section .media .description{font-size: 14px;  color: #5b5b5b;margin-bottom: 20px;}
+.rating-row ul{list-style:none;display:flex; padding:0 ; margin:0;}
+.rating-row ul li{color:#ffc107;font-size:20px;margin:0px 3px;}
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+.rating-row .rating_entreprise li {
+    color: #35237e;
+    font-size: 32px;
+    margin: 0px 3px;
+}
+.rating_entreprises li{
+    font-size: 24px !important;
+}
+
+/* modal confirm */
+.modal-confirm {
+    color: #636363;
+    width: 400px;
+  }
+  .modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+  }
+  .modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+    flex-direction: column !important;
+  }
+  .modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -10px;
+  }
+  .modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -2px;
+  }
+  .modal-confirm .modal-body {
+    color: #999;
+  }
+  .modal-confirm .modal-footer {
+      border: none;
+      text-align: center;
+      border-radius: 5px;
+      font-size: 13px;
+      padding: 11px 48px 24px;
+  }
+  .modal-confirm .modal-footer a {
+    color: #999;
+  }
+  .modal-confirm .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 9;
+    text-align: center;
+    border: 3px solid #f15e5e;
+  }
+  .modal-confirm .icon-box i {
+    color: #f15e5e;
+    font-size: 46px;
+    display: inline-block;
+    margin-top: 13px;
+  }
+  .modal-confirm .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #60c7c1;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    min-width: 120px;
+    border: none;
+    min-height: 40px;
+    border-radius: 3px;
+    margin: 0 5px;
+    outline: none !important;
+  }
+  .modal-confirm .btn-info {
+    background: #c1c1c1;
+  }
+  .modal-confirm .btn-info:hover, .modal-confirm .btn-info:focus {
+    background: #a8a8a8;
+  }
+  .modal-confirm .btn-danger {
+    background: #f15e5e;
+  }
+  .modal-confirm .btn-danger:hover, .modal-confirm .btn-danger:focus {
+    background: #ee3535;
+  }
+  .trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+  }
+.logo_entreprise_commenter{
+    border-radius: 50%;overflow: hidden;
+    margin-right: 20px;
+    object-fit: cover;
+}
+/* comment box  */
+
+.box_comment{
+    display: block;
+  position: relative;
+  line-height: 1.358;
+  word-break: break-word;
+  border: 1px solid #d3d6db;
+  word-wrap: break-word;
+  background: #fff;
+  box-sizing: border-box;
+  cursor: text;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  padding: 0;
+}
+.box_comment textarea{
+  min-height: 40px;
+  padding: 12px 8px;
+  width: 100%;
+  border: none;
+  resize: none;
+}
+.box_comment textarea:focus{
+outline: none !important;
+}
+.box_comment .box_post{
+  border-top: 1px solid #d3d6db;
+  background: #f5f6f7;
+  padding: 8px;
+  display: block;
+  overflow: hidden;
+}
+
+.box_comment button{
+    margin-left: 8px;
+    background-color: #4267b2;
+    border: 1px solid #4267b2;
+    color: #fff;
+    text-decoration: none;
+    line-height: 22px;
+    padding: 2px 1px 2px 1px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+.box_comment button:hover{
+background-color: #29487d;
+border-color: #29487d;
+}
+.logo_entreprise_commenter{
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+}
+
+/* waiting */
+.load {
+    display: flex;
+    justify-content: center;
+}
+.load div {
+    width: 20px;
+    height: 20px;
+    background-color: #2d1166;
+    margin-left: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: calc(50px - 12.5px);
+    animation-name: loading;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.load-two {
+    animation-delay: 0.4s;
+}
+.load-three {
+    animation-delay: 0.8s;
+}
+@keyframes loading {
+    to {
+        opacity: 0.4;
+        transform: translateY(-25px);
+        -webkit-transform: translateY(-25px);
+        -moz-transform: translateY(-25px);
+        -ms-transform: translateY(-25px);
+        -o-transform: translateY(-25px);
+}
+}
+
+/* star rating */
+.star-rating {
+    border:solid 1px #ccc;
+    display:flex;
+    flex-direction: row-reverse;
+    font-size:30px;
+    justify-content:space-around;
+    padding:0 .2em;
+    text-align:center;
+    width:5em;
+  }
+
+  .star-rating input {
+    display:none;
+  }
+
+  .star-rating label {
+    color:#ccc;
+    cursor:pointer;
+  }
+
+  .star-rating :checked ~ label {
+    color:#f90;
+  }
+
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color:#fc0;
+  }
